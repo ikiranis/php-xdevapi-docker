@@ -11,3 +11,8 @@ docker-compose build && docker-compose up -d
 
 * Put your laravel application files in **/www** folder. Change permissions from root to your user
 
+### Login to container
+
+```
+docker exec -it php-xdevapi-docker-apache-server-1 /bin/bash
+```
